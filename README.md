@@ -31,14 +31,15 @@ LAKSHMI START
 DOT "Hello, World!";
 MAGIZHCHI
 ```
-- save it has a .py file and execute using
+- save it as a .py file and execute using
 - Run the `hello_world.rpp` program:
 
   `rajinipp run examples/hello_world.rpp` or
   `python -m rajinipp run examples/hello_world.rpp`
   
+- Remember the extension `.rpp` is to refer the rajinipp.It can called still `.py` while excecuting.
 
-will result in the following output:
+will result in the following output
 
 `Hello, World!" `
 
