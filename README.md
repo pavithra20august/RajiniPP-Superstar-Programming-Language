@@ -1,6 +1,5 @@
-# rajini-Superstar-Programming-Language
+# rajini++ : Superstar-Programming-Language
 
-# rajini++
 
 ![banner_thin](https://user-images.githubusercontent.com/6749212/168450764-5ae486d8-8299-4425-b51d-cf3b9538efb2.png)
 
@@ -15,11 +14,8 @@
 ![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/aadhithya/rajiniPP/latest/master?style=flat-square)
 
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/asankar96?style=social)](https://twitter.com/asankar96)
-[![GitHub followers](https://img.shields.io/github/followers/aadhithya?style=social)](https://github.com/aadhithya)
 
-
-rajini++ (rajiniPP) is a programming language is a tribute to the one and only superstar and based on the iconic dialogues of Rajinikanth. This is a hobby project ans is not meant to be used for serious software development.
+rajini++ (rajiniPP) is a programming language is a tribute to the one and only superstar and based on the iconic dialogues of Rajinikanth. Came across to this fun project by aadhithya, is not meant to be used for serious software development.
 
 ## Superstar Rajinikanth
 - [Who is Rajinikanth](https://www.youtube.com/watch?v=YDUQZwMHMoo)?
@@ -28,7 +24,7 @@ rajini++ (rajiniPP) is a programming language is a tribute to the one and only s
 ## Installation
 - rajinipp requires **python >= 3.8**. Install python from [here](https://www.python.org/downloads/).
 - Install the rajini++ interpreter using the following command:
-  `pip install rajinipp`
+  `pip install rajinipp` in your terminal
 
 - test installation: `rajinipp version`
 
@@ -37,15 +33,18 @@ rajini++ (rajiniPP) is a programming language is a tribute to the one and only s
 rajini++ is not a feature rich language and is not intended for serious use. It is rather a hobby project and a tribute to the one and only superstar.
 
 ### Run programs
-`hello_world.rpp`:
+`hello_world.rpp`:  
 ```
 LAKSHMI START
 DOT "Hello, World!";
 MAGIZHCHI
 ```
+- save it has a .py file and execute using
 - Run the `hello_world.rpp` program:
 
-  `rajinipp run examples/hello_world.rpp`
+  `rajinipp run examples/hello_world.rpp` or
+  `python -m rajinipp run examples/hello_world.rpp`
+  
 
 will result in the following output:
 
@@ -67,47 +66,6 @@ will result in the following output:
 - Workflows setup based on [poetry_pypi_template](https://github.com/a-parida12/poetry_pypi_template).
 - This project is inspired by the [ArnoldC](https://github.com/lhartikk/ArnoldC) project.
 
-
-
-## Roadmap
-### rajini++ Features
-- [x] Math Ops
-  - [x] SUM
-  - [x] SUB
-  - [x] MUL
-  - [x] DIV
-  - [x] MOD
-- [x] Unary Ops
-- [x] print multiple objects with the same statement.
-- [x] variable declaration
-- [x] variable access
-- [x] variable manipulation
-- [x] bool data type
-- [x] float datatype
-- [x] logical ops
-- [x] if statement
-- [x] if-else statement
-- [x] for loop
-- [x] while loop
-- [x] functions
-- [x] functions with return
-- [ ] fuinctions with arguments
-- [ ] Execute python code in rajini++ scripts
-### rajinipp package
-- [ ] rajinipp python runner:
-  - [ ] `rajinipp.api.require`: load rajini++ code into python program.
-  - [x] `rajinipp.runner.RppRunner.exec`: execute rajini++ programs in python loaded as string.
-  - [ ] `rajinipp.runner.RppRunner.eval`:
-    - [x] eval rajini++ statement in python scripts [limited support].
-    - [ ] support flow control statements.
-    - [ ] eval function calls from loaded rajini++ code and return output.
-- [ ] rajinipp shell to run rajini++ commands from the terminal.
-  - [x] limited support using `rajinipp.runner.RppRunner.eval`.
-  - [ ] complete support to all rajini++ features.
-
-### General
-- [x] Add tests.
-- [x] semantic releases.
 
 ```
 !! Declare function
