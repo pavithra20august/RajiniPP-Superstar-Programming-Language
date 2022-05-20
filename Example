@@ -1,0 +1,29 @@
+```
+!! Declare function
+EN VAZHI THANI VAZHI myfunc_one
+
+    !! FOR LOOP
+    NAA 1 THADAVA SONNA range THADAVA SONNA MADHRI{
+        AANDAVAN SOLLRAN ix ARUNACHALAM SEIYARAN 100;
+        DOT "Hello from myfunc_one!";
+        DOT "returning variable value =" ix ;
+    }KATHAM KATHAM;
+
+    !! Return ix
+    IDHU EPDI IRUKKU ix;
+
+MARAKKADHINGA
+
+!! Main Program
+LAKSHMI START
+DOT "Hi from main!";
+
+AANDAVAN SOLLRAN range ARUNACHALAM SEIYARAN 3;
+
+!! Assign function return value to y
+y CHUMMA ADHURUDHULA myfunc_one;
+
+DOT "Value returned from myfunc_one:" y;
+
+MAGIZHCHI
+```
