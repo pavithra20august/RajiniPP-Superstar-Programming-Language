@@ -5,10 +5,6 @@
 
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rajinipp?logo=PyPI&logoColor=%23eaeaea&style=flat-square)
-![PyPI - License](https://img.shields.io/pypi/l/rajinipp?style=flat-square)
-![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/aadhithya/rajiniPP/latest/master?style=flat-square)
-
-
 
 rajini++ (rajiniPP) is a programming language is a tribute to the one and only superstar and based on the iconic dialogues of Rajinikanth. Came across to this fun project by aadhithya, is not meant to be used for serious software development.
 
@@ -49,6 +45,30 @@ will result in the following output:
 
 - This project is inspired by the [ArnoldC](https://github.com/lhartikk/ArnoldC) project.
 
+
+## Embedding rajini++ code in python scripts
+
+- rajinipp interpreter is written completely in python, it is possible to run rajini++ code inside python scripts
+```
+from rajinipp.runner import RppRunner
+
+def main():
+    # * initialize the rajinipp runner
+    rpp = RppRunner()
+    print("Hello, World from python!")
+    rpp.eval('DOT "Hello world from rajini++!";')
+
+    # * It is also possible to access the outputs of the rpp code
+    print("Executing 5+5 in rajini++")
+
+    out = rpp.eval("5+5;")
+
+    print(f"5 + 5 = {out}")
+
+
+if __name__ == "__main__":
+    main()   
+```
 
 ```
 !! Declare function
