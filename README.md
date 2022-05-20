@@ -13,7 +13,8 @@ rajini++ (rajiniPP) is a programming language is a tribute to the one and only s
 - [Rajinikanth on Wikipedia](https://en.wikipedia.org/wiki/Rajinikanth).
 
 ## Installation
-- rajinipp requires **python >= 3.8**. Install python from [here](https://www.python.org/downloads/).
+- rajinipp requires **python >= 3.8**. 
+
 - Install the rajini++ interpreter using the following command:
   `pip install rajinipp` in your terminal
 
@@ -48,7 +49,7 @@ will result in the following output:
 
 ## Embedding rajini++ code in python scripts
 
-- rajinipp interpreter is written completely in python, it is possible to run rajini++ code inside python scripts
+rajinipp interpreter is written completely in python, it is possible to run rajini++ code inside python scripts
 ```
 from rajinipp.runner import RppRunner
 
