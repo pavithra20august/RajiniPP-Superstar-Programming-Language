@@ -1,6 +1,6 @@
 # rajini-Superstar-Programming-Language
 
-<
+```
 !! Declare function
 EN VAZHI THANI VAZHI myfunc_one
 
@@ -28,5 +28,4 @@ y CHUMMA ADHURUDHULA myfunc_one;
 DOT "Value returned from myfunc_one:" y;
 
 MAGIZHCHI
-
->
+```
